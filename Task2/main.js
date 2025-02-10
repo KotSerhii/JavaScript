@@ -170,16 +170,24 @@
 //     Потрібно знайти та вивести максимальне число з тих двох .
 //     Також потрібно врахувати коли введені рівні числа.
 //
-let a = +prompt('Enter the first number');
-let b = +prompt('Enter the second number');
-if (a > b){
-  console.log(`Max is ${a}')
+// let a = +prompt('Enter the first number');
+// let b = +prompt('Enter the second number');
+// if (a > b) {
+//   console.log(`Max is ${a}`);
+// } else if (a < b) {
+//   console.log(`Max is ${b}`);
+// } else if (a === b) {
+//   console.log(`Numbers ${a} and ${b} are equel`);
+// } else {
+//   console.log(`Error`);
+// }
 
 //     #iBvqtjEm
 //   - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 //     буде присвоювати змінній х значення "default"  якщо ви намагаєтесь присвоїти в неї falsy-значення
 //     (хибноподібні, тобто ті, які приводиться до false, а це 0 null undefined і тд).
 //
+
 
 
 //   #awLXL6TBzg
