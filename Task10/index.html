@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+</head>
+<body>
+
+<script>
+const sessionsList = JSON.parse(localStorage.getItem('sessionsList')) || [];
+sessionsList.push(new Date());
+localStorage.setItem('sessionsList', JSON.stringify(sessionsList));
+</script>
+</body>
+</html>
