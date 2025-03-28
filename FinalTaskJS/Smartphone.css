@@ -1,0 +1,13 @@
+@media (min-width: 0px) and (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+
+  .input-group, .list-group {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+@media (min-width: 481px) and (max-width: 768px) {
+  .input-group {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .input-container {
+    flex: 1;
+  }
+
+  #addBtn {
+    width: auto;
+  }
+
+  .list-group {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .list-container {
+    flex: 1;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
